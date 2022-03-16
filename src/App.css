@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin: auto;
 }
 
 .App-logo {
@@ -35,4 +36,48 @@
   to {
     transform: rotate(360deg);
   }
+}
+.App-link{
+  color: rgb(230, 43, 10);
+  background-color: antiquewhite;
+  padding: 20px;
+  border-radius: 20px;
+}
+.myperson{
+  display: grid;
+  grid-template-columns:auto;
+  column-gap: 50px;
+  margin: auto;
+  margin-top: 20px;
+  
+  align-content: center;
+  text-align: center;
+  max-width: 100%;
+  width: 25%;
+  background-color: lawngreen;
+  color: red;
+  border: 1px solid brown;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.friend{
+  
+  margin: auto;
+  width: 25%;
+  margin-top: 20px;
+  max-width: 100%;
+  background-color: aqua;
+  color: rgba(34, 34, 29, 0.884);
+  border-radius: 20px;
+  padding: 20px;
+}
+.user{
+  margin: auto;
+  align-content: center;
+  background-color: lightblue;
+  border:  5px solid rgb(65, 170, 61);
+  border-radius: 20px;
+  margin-top: 20px;
+  width: 25%;
 }
